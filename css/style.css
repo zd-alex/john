@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+menu,
+html,
+body {
+  font-family: Heebo;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #21243d;
+}
+
+.header__container {
+  max-width: 1032px;
+  margin: 0 auto;
+}
+
+.header__menu {
+  height: 82px;
+  align-items: center;
+}
+@media (max-width: 1060px) {
+  .header__menu {
+    margin: 0px 12px 0 0;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu a {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  padding: 10px 0;
+  color: #000000;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 0 0 0 33px;
+  transition: color 0.3s ease 0s;
+}
+.menu a:hover {
+  color: #ff6464;
+}
+
+.test2 {
+  font-size: 36px;
+}
+
+.container {
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin: 120px 0 70px 0;
+}
+@media (max-width: 872px) {
+  .intro {
+    margin: 30px 10px 70px 10px;
+  }
+}
+@media (max-width: 722px) {
+  .intro {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .intro {
+    margin: 0px 0 70px 0;
+  }
+}
+.intro__content {
+  flex: 1 1 auto;
+  align-items: flex-start;
+  padding: 0 115px 0 0;
+}
+.intro__content :last-child {
+  margin-bottom: 0px;
+}
+@media (max-width: 872px) {
+  .intro__content {
+    padding: 0 50px 0 0;
+  }
+}
+@media (max-width: 722px) {
+  .intro__content {
+    padding: 0 10px;
+  }
+}
+.intro__title {
+  margin: 0 0 30px 0;
+  padding: 18px 0 0 0;
+}
+.intro__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0 0 35px 0;
+}
+.intro__photo {
+  flex: 0 0 243px;
+  width: 243px;
+}
+@media (max-width: 722px) {
+  .intro__photo {
+    flex: 0 0 170px;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+}
+@media (max-width: 872px) {
+  .title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.photo {
+  border-radius: 50%;
+  box-shadow: -5px 13px 0 0 #edf7fa;
+}
+@media (max-width: 722px) {
+  .photo {
+    height: 170px;
+    width: 170px;
+  }
+}
+
+.btn {
+  display: inline-flex;
+  background: #ff6464;
+  border-radius: 2px;
+  align-items: center;
+  padding: 0 20px;
+  height: 47px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  transition: background-color 0.3s ease 0s;
+}
+
+.btn:hover {
+  background-color: #bb4949;
+}
+
+.recent-posts {
+  background: #edf7fa;
+  padding: 25px 10px 13px 10px;
+}
+.recent-posts__header {
+  display: flex;
+  margin: 0 0 20px 0;
+}
+.recent-posts__title {
+  flex: 1 0 auto;
+  padding: 0 20px 0 0;
+}
+.recent-posts__view-all {
+  font-size: 16px;
+  line-height: 23px;
+  color: #00a8cc;
+  white-space: nowrap;
+}
+@media (max-width: 872px) {
+  .recent-posts__view-all {
+    display: none;
+  }
+}
+.recent-posts__items {
+  display: flex;
+  margin: 0 0 0 -10px;
+}
+@media (max-width: 872px) {
+  .recent-posts__items {
+    display: block;
+  }
+}
+.recent-posts__column {
+  flex: 0 1 50%;
+  padding: 0 0 0 10px;
+  margin: 0 0 17px 0;
+}
+
+.recent-post {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  padding: 25px;
+  height: 100%;
+}
+.recent-post__title {
+  display: inline-block;
+  margin-bottom: 17px;
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #21243d;
+  text-decoration: none;
+  transition: color 0.3s ease 0s;
+}
+.recent-post__title:hover {
+  color: #ff6464;
+}
+.recent-post__info {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0 0 15px 0;
+}
+.recent-post__info span {
+  margin: 0 10px;
+}
+.recent-post__text {
+  margin: 0 27px 7px 23px;
+}
+
+.title-posts {
+  font-size: 22px;
+}
+@media (max-width: 872px) {
+  .title-posts {
+    text-align: center;
+    font-size: 18px;
+  }
+}
